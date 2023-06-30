@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    background-color: #1F2937;
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    height: 125px;    
+}
+
+.sub-title {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+.rules {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85px;
+}
+
+.rules-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    color: white;
+}
+
+.rules-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    color: white;
+    margin-bottom: 100 px;
+}
+
+
+
+.game {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+    margin-bottom: 40px;
+}
+
+.left {
+    width: 400px;
+    height: 250px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    background-color: lightgray;
+    border: 2 px solid;
+    border-radius: 10px;
+}
+
+.player {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.player-score {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 100px;
+    border: black 2px solid;
+}
+
+
+
+.right {
+    width: 400px;
+    height: 250px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    border: 2 px solid;
+    border-radius: 10px;
+}
+
+.computer {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.computer-score {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0;
+    font-size: 15px;
+}
